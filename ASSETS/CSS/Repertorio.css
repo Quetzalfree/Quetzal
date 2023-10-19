@@ -1,0 +1,265 @@
+
+/*GLOBALES*/
+
+body{
+    background-color: #581117;
+}
+
+
+/*MOVIL*/
+
+@media(max-width:768px){
+    
+    .titulo h1{
+        color: #fba46f;
+        margin-top: 20px;
+        font-size: 24px;
+        padding: 20px 60px;
+        text-align: center;      
+    }
+
+
+    .canciones{
+        display: block;     
+    }
+
+
+    .secc1{
+        margin-top: 50px;
+    }
+
+
+    .secc1 p{
+        color: #fba46f;
+        margin: 0.5px;
+        margin-left: 60px;
+        font-size: 20px;
+    }
+
+
+    .secc2{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+
+    .secc2 p{
+        color: #fba46f;
+        margin: 0.5px;
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+
+    .secc3{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+
+    .secc3 p{
+        color: #fba46f;
+        margin: 0.5px;
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+
+    .secc4{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+
+    .secc4 p{
+        color: #fba46f;
+        margin: 0.5px;
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+
+    .banner{
+        margin-top: 50px;
+        text-align: center;
+    }
+
+
+    .banner img{
+        width: 100%;    
+    }
+
+}
+
+
+/*TABLET Y PC PEQUEÑO*/
+
+@media(min-width:768px) { 
+    
+    .titulo h1{
+        color: #fba46f;
+        font-size: 25px;
+        padding: 20px 50px;
+    }
+
+
+    .canciones{
+        display: flex;
+    }
+
+
+    .secc1{
+        margin-top: 50px;
+    }
+
+
+    .secc1 p{
+        color: #fba46f;
+        margin: 0.5px;
+        margin-left: 50px;
+        font-size: 18px;
+    }
+
+
+    .secc2{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+
+    .secc2 p{
+        color: #fba46f;
+        margin: 0.5px;
+        margin-left: 50px;
+        font-size: 18px;
+    }
+
+
+    .secc3{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+
+    .secc3 p{
+        color: #fba46f;
+        margin: 0.5px;
+        margin-left: 50px;
+        font-size: 18px;
+    }
+
+
+    .secc4{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+
+    .secc4 p{
+        color: #fba46f;
+        margin: 0.5px;
+        margin-left: 50px;
+        font-size: 18px;
+    }
+
+
+    .banner{
+        margin-top: 10px;
+        text-align: center;
+    }
+
+
+    .banner img{
+        width: 70%;
+        text-align: center;
+        height:400px;
+    }
+    
+}
+  
+
+/*PC Y PANTALLAS GRANDES*/
+
+@media(min-width:1200px){ 
+
+    .titulo h1{
+        color: #fba46f;
+        font-size: 30px;
+        padding: 20px 60px;
+    }
+
+
+    .canciones{
+        display: flex;
+        
+    }
+
+
+    .secc1{
+        margin-top: 50px;
+    }
+
+
+    .secc1 p{
+        color: #fba46f;
+        margin: 0.5px;
+        margin-left: 60px;
+        font-size: 20px;
+    }
+
+
+    .secc2{
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+
+
+    .secc2 p{
+        color: #fba46f;
+        margin: 0.5px;
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+
+    .secc3{
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+
+
+    .secc3 p{
+        color: #fba46f;
+        margin: 0.5px;
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+
+    .secc4{
+        margin-top: 50px;
+        margin-left: 80px;
+    }
+
+
+    .secc4 p{
+        color: #fba46f;
+        margin: 0.5px;
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+
+    .banner{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+
+    .banner img{
+        width: 75%;
+        text-align: center;
+        height:600px;   
+    }
+    
+}

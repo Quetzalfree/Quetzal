@@ -1,0 +1,592 @@
+/*GLOBALES*/
+
+:root{
+    --naranjado:#FF5733;
+    --blanco:#fff;
+    --rojo:#881014;
+    --oscuro:#000; 
+    --amarillo:#F4D03F ; 
+    --vinotinto:#4C090B;
+    --titulos:'Arima Madurai',cursive;  
+    --parrafos:'Mulish',sans-serif;    
+}
+
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+body{
+    font-size: 1.6rem;
+    overflow-x: hidden;
+    background: none repeat scroll 0 0;    
+}
+
+
+*,*::after, *::before{
+    box-sizing: inherit;
+}
+
+
+h1,h2{
+    font-family: var(--titulos);
+}
+
+
+h3, p , a{
+    font-family: var(--parrafos);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    margin-top: -8px;
+    margin-bottom: -5px;
+ }
+
+
+/*BARRA NAVEGACION*/
+
+.navbar-toggler{
+    margin-bottom: 50px;
+    margin-top: 30px;
+    background-color: white;
+    font-size: 2.5rem;
+ }
+
+
+ /*MOVIL*/
+
+@media(max-width:768px){ 
+
+    .container-fluid  li a{
+        font-size: 3rem;
+        margin: 100px 40px;
+        margin-bottom: 0; 
+        color: white; 
+        font-weight: bold;
+        margin-top: 30px;
+        text-align: left;      
+    }
+
+
+    .container-fluid{
+        background-color: var(--vinotinto);
+        padding-top: 20px;
+        z-index: 1;
+        width: 100%; 
+        padding:2rem;   
+    }
+
+
+    .container-fluid .titulo1 a{
+        margin-left: 250px;
+    }
+
+
+    .banner img{
+        
+        width: 100%;   
+    }
+
+
+    .logo img{
+        
+       display: none;  
+    }
+
+
+    .footer{
+        width: auto;
+        height: auto;
+        background-color: var(--vinotinto);
+        margin: 0rem;
+        display: block;
+        padding-top: 0;
+    }
+    
+    
+    .parte-izq{
+        padding-top: 12rem;
+        padding-right: 10rem;
+        padding-bottom: 10rem;
+        padding-left: 10rem;
+    }
+    
+    
+    .parte-izq  a {
+        text-decoration: none;
+        font-size: 3rem;
+        color: var(--blanco);
+        display: block;
+        padding: 1rem;
+        padding-left: 0rem;
+        text-align: center;   
+    }
+
+
+    .linea span{
+        display: block;
+        background-color: var(--blanco);
+        width: .4rem;
+        height: .5rem;
+        display: inline-block;
+        margin-left: rem;
+    }
+    
+
+    .linea span:first-of-type{
+        margin-top:-30rem;
+        margin-left: 2rem;   
+    }
+    
+    
+    .parte-izq a:hover{
+        color: var(--oscuro);   
+    }
+    
+    
+    .informacion p{
+        text-decoration: none;
+        font-size: 2rem;
+        color: var(--blanco);
+        display: block;
+        padding: 1rem; 
+        text-align: center;
+    }
+    
+    
+    .informacion p:first-of-type{
+        margin-top: 6rem;
+    }
+    
+    
+    .linea2 span{
+        display: block;
+        background-color: var(--blanco);
+        width: .4rem;
+        height: .5rem;
+        display: flex;     
+        display: inline-block;  
+    }
+    
+    
+    .linea2 span:first-of-type{
+        margin-top: 10rem;
+        margin-left: 2rem;
+    }
+    
+    
+    .facebook i{
+        font-size: 3rem;
+        height: 5rem;
+        margin-top: 10rem;
+        margin-left: 5rem;
+        color: white;
+        margin-left: 7rem;
+    }
+    
+
+    .facebook {
+        display: flex;
+    }
+    
+    
+    .facebook p{
+        font-size: 2rem;
+        color: var(--blanco);
+        margin-top: 11.5rem;
+        margin-left: 2rem;
+    }
+    
+    
+    .instagram i{
+        font-size: 3rem;
+        height: 5rem;
+        margin-top: 9rem;
+        margin-left: 5rem;
+        color: white;
+        margin-left: 7rem;  
+    }
+    
+
+    .instagram{
+        display: flex;
+    }
+    
+
+    .instagram p{
+        width: 5rem;
+        height: 5rem;
+        margin-top: 10rem;
+        margin-left: 2rem;
+        color: var(--blanco);
+        font-size: 2rem;
+    }
+    
+
+}
+
+
+/*TABLET Y PC PEQUEÑO*/
+
+@media(min-width:768px) { 
+
+    .container-fluid  li a{
+        font-size: 14px;
+        margin: 100px 40px;
+        margin-bottom: 0; 
+        color: black; 
+        font-weight: bold;
+        margin-top: 30px;     
+    }
+
+
+    .container-fluid .titulo1 a{
+        margin-left: 250px;
+    }
+
+
+    .container-fluid{
+        background-color: white;
+        margin-top: 1px;
+        z-index: 1;
+        padding: 1px;
+        width: 100%;  
+        padding: 10px; 
+        height: 80px; 
+    }
+
+
+    .logo img{
+        width: 180px;
+        height:130px;
+        margin-left: -82.5px;
+        margin-top: 0px;   
+        position: absolute;
+    }
+
+
+    .footer{
+        width: auto;
+        height: 32rem;
+        background-color: var(--vinotinto);
+        margin: 0rem;
+        display: flex;
+        padding-top: 0;
+    }
+    
+    
+    .parte-izq{
+        padding-top: 12rem;
+        padding-right: 10rem;
+        padding-bottom: 10rem;
+        padding-left: 10rem;
+    }
+    
+    
+    .parte-izq  a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: var(--blanco);
+        display: block;
+        padding: 1rem;
+        padding-left: 0rem;   
+    }
+
+  
+    .linea span{
+        display: block;
+        background-color: var(--blanco);
+        width: .4rem;
+        height: .5rem;
+        display: flex;
+    }
+    
+
+    .linea span:first-of-type{
+        margin-top:30rem;
+    }
+    
+    
+    .parte-izq a:hover{
+        color: var(--oscuro);   
+    }
+    
+    
+    .informacion p{
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: var(--blanco);
+        display: block;
+        padding: 1rem;
+        padding-left: 10rem;
+        padding-right: 20rem; 
+    }
+    
+    
+    .informacion p:first-of-type{
+        margin-top: 6rem;
+    }
+    
+    
+    .linea2 span{
+        display: block;
+        background-color: var(--blanco);
+        width: .4rem;
+        height: .5rem;
+        display: flex;
+        margin-left: -10rem;     
+    }
+    
+    
+    .linea2 span:first-of-type{
+        margin-top: 30rem;
+    }
+    
+    
+    .facebook i{
+        font-size: 3rem;
+        height: 5rem;
+        margin-top: 10rem;
+        margin-left: 5rem;
+        color: white;
+        margin-left: -7rem;
+    }
+    
+
+    .facebook {
+        display: flex;
+    }
+    
+    
+    .facebook p{
+        font-size: 1.5rem;
+        color: var(--blanco);
+        margin-top: 12rem;
+        margin-left: 2rem;
+    }
+    
+    
+    .instagram i{
+        font-size: 3rem;
+        height: 5rem;
+        margin-top: 20rem;
+        margin-left: 5rem;
+        color: white;
+        margin-left: -14.5rem; 
+    }
+    
+
+    .instagram{
+        display: flex;
+    }
+    
+
+    .instagram p{
+        width: 5rem;
+        height: 5rem;
+        margin-top: 21.9rem;
+        margin-left: 2rem;
+        color: var(--blanco);
+        font-size: 1.5rem;
+    }
+    
+    
+}
+  
+
+/*PC Y PANTALLAS GRANDES*/
+
+@media(min-width:1200px){ 
+    .container-fluid  li a{
+        font-size: 20px;
+        margin: 100px 50px;
+        margin-bottom: 0; 
+        color: black; 
+        font-weight: bold;
+        margin-top: 30px;     
+    }
+
+
+    .container-fluid .titulo1 a{
+        margin-left: 335px;
+    }
+
+
+    .container-fluid{
+        background-color: white;
+        margin-top: 1px;
+        z-index: 1;
+        padding: 1px;
+        width: 100%;  
+        padding: 10px; 
+        height: 80px; 
+    }
+
+
+    .logo img{
+        width: 200px;
+        height:150px;
+        margin-left: -95px;
+        margin-top: 0px;   
+        position: absolute;
+    }
+
+
+    .footer{
+        width: auto;
+        height: 32rem;
+        background-color: var(--vinotinto);
+        margin: 0rem;
+        display: flex;
+        padding-top: 0; 
+    }
+    
+    
+    .parte-izq{
+        padding-top: 12rem;
+        padding-right: 10rem;
+        padding-bottom: 10rem;
+        padding-left: 10rem;
+    }
+    
+    
+    .parte-izq  a {
+        text-decoration: none;
+        font-size: 2rem;
+        color: var(--blanco);
+        display: block;
+        padding: 1rem;
+        padding-left: 0rem;     
+    }
+
+ 
+    .linea span{
+        display: block;
+        background-color: var(--blanco);
+        width: .4rem;
+        height: .5rem;
+        display: flex; 
+    }
+    
+
+    .linea span:first-of-type{
+        margin-top:30rem;
+    }
+    
+    
+    .parte-izq a:hover{
+        color: var(--oscuro);      
+    }
+    
+    
+    .informacion p{
+        text-decoration: none;
+        font-size: 2rem;
+        color: var(--blanco);
+        display: block;
+        padding: 1rem;
+        padding-left: 15rem;
+        padding-right: 20rem;  
+    }
+    
+    
+    .informacion p:first-of-type{
+        margin-top: 6rem;
+    }
+    
+    
+    .linea2 span{
+        display: block;
+        background-color: var(--blanco);
+        width: .4rem;
+        height: .5rem;
+        display: flex;
+        margin-left: 2rem;      
+    }
+    
+    
+    .linea2 span:first-of-type{
+        margin-top: 30rem;
+    }
+    
+    
+    .facebook i{
+        font-size: 3rem;
+        height: 5rem;
+        margin-top: 10rem;
+        margin-left: 5rem;
+        color: white;
+        margin-left: 7rem;
+    }
+    
+
+    .facebook {
+        display: flex;
+    }
+    
+    
+    .facebook p{
+        font-size: 2rem;
+        color: var(--blanco);
+        margin-top: 11rem;
+        margin-left: 2rem;
+    }
+    
+    
+    .instagram i{
+        font-size: 3rem;
+        height: 5rem;
+        margin-top: 20rem;
+        margin-left: 5rem;
+        color: white;
+        margin-left: -18rem;  
+    }
+    
+
+    .instagram{
+        display: flex;
+    }
+    
+
+    .instagram p{
+        width: 5rem;
+        height: 5rem;
+        margin-top: 21rem;
+        margin-left: 2rem;
+        color: var(--blanco);
+        font-size: 2rem;
+    }
+
+    .banner img{
+        width: 100%;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

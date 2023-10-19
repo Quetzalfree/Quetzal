@@ -1,0 +1,123 @@
+/*GLOBALES*/
+
+*{
+    margin: 0;
+}
+
+
+/*MOVIL*/
+
+@media(max-width:768px){
+
+    body{
+        background-color: #7e0e19;
+        height:1400px;
+    }
+
+
+    .secc1 p{
+        color: #fba46f;
+        text-align: center;    
+    }
+
+
+    .secc1 img{
+        width: 90%;
+        margin-left: 18px;
+    }
+
+
+    .secc2 img{
+        width: 90%;
+        height: 250px;
+        margin-left: 18px;   
+    }
+
+
+    .secc3 img{
+        width: 90%;
+        margin-left: 18px;
+        height: 250px;
+    }
+  
+}
+
+
+/*TABLET Y PC PEQUEÑO*/
+
+@media(min-width:768px) { 
+    
+    body{
+        background-color: #7e0e19;
+        height: 750px;
+    }
+
+
+    .secc1 p{
+        color: #fba46f;
+        margin-left: 50px;
+        text-align: left;
+        
+    }
+
+
+    .secc1 img{
+        width: 90%;
+        margin-left: 30px;
+    }
+
+
+    .secc2 img{
+        width: 90%;
+        height: 300px;
+        margin-left: 50px;
+    }
+
+
+    .secc3 img{
+        width: 90%;
+        margin-left: 30px;
+        height: 300px;
+    }  
+    
+}
+  
+
+/*PC Y PANTALLAS GRANDES*/
+
+@media(min-width:1200px){ 
+
+    body{
+        background-color: #7e0e19;
+        height:1100px;
+    }
+
+
+    .secc1 p{
+        color: #fba46f;
+        margin-left: 50px;
+        text-align: left;
+        font-size: 24px;
+    }
+
+
+    .secc1 img{
+        width: 90%;
+        margin-left: 30px;
+    }
+
+
+    .secc2 img{
+        width: 90%;
+        height: 500px;
+        margin-left: 50px;
+    }
+
+
+    .secc3 img{
+        width: 90%;
+        margin-left: 30px;
+        height: 500px;
+    }
+   
+}

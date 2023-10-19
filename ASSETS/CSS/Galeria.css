@@ -1,0 +1,257 @@
+/*GLOBALES*/
+
+*{
+    margin: 0;
+}
+
+
+/*MOVIL*/
+
+@media(max-width:768px){
+
+    body{
+        background-color: #581117;
+        background-image: url(../IMG/logo4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        text-align: center;
+        background-size: 900px; 
+        background-position-y: 140px;
+        background-position-x: ;
+        z-index: 1;     
+    }
+
+
+    body::after{
+        content:'' ;
+        width: 100%;
+        height: 420%;
+        position: absolute;
+        background-color: #712e37;
+        top: 0;
+        left: 0;
+        opacity: 0.9;
+        z-index: -1;
+    }
+
+    
+    .titulo h1{
+        color: #fba46f;
+        text-align: center;
+        margin-top: 60px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+        z-index: 1;    
+    }
+
+
+    .secc1{
+        display: block;
+        justify-content: center;
+    }
+
+
+    .secc1 img{
+        width: 80%;
+        margin: 20px 30px;
+        height: 250px;
+        border-radius: 10px;    
+    }
+
+
+    .secc2{
+        display: block;
+        justify-content: center;
+    }
+
+
+    .secc2 img{
+        width: 80%;
+        margin: 20px 30px;
+        height: 250px;
+        border-radius: 10px;     
+    }
+
+
+    .secc3{
+        display: block;
+        justify-content: center;
+    }
+
+
+    .secc3 img{
+        width: 80%;
+        margin: 20px 30px;
+        height: 250px;
+        border-radius: 10px;   
+    }
+    
+}
+
+
+/*TABLET Y PC PEQUEÑO*/
+
+@media(min-width:768px) {
+
+    body{
+        background-color: #581117;
+        background-image: url(../IMG/logo4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        text-align: center;
+        background-size: 800px; 
+        background-position-y: 140px;
+        background-position-x: ;
+        z-index: 1;     
+    }
+
+
+    body::after{
+        content:'' ;
+        width: 100%;
+        height: 200%;
+        position: absolute;
+        background-color: #712e37;
+        top: 0;
+        left: 0;
+        opacity: 0.9;
+        z-index: -1;
+    }
+    
+
+    .titulo h1{
+        color: #fba46f;
+        text-align: center;
+        margin-top: 60px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+        z-index: 1;    
+    }
+
+
+    .secc1{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .secc1 img{
+        width: 25%;
+        margin: 20px 20px;
+        height: 200px;    
+    }
+
+
+    .secc2{
+        display: flex;
+        justify-content: center;     
+    }
+
+
+    .secc2 img{
+        width: 25%;
+        margin: 20px 20px;
+        height: 200px;      
+    }
+
+
+    .secc3{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .secc3 img{
+        width: 25%;
+        margin: 20px 20px;
+        height: 200px;     
+    }
+   
+}
+  
+
+/*PC Y PANTALLAS GRANDES*/
+
+@media(min-width:1200px){ 
+
+    body{
+        background-color: #581117;
+        background-image: url(../IMG/logo4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        text-align: center;
+        background-size: 900px; 
+        background-position-y: 140px;
+        background-position-x: ;
+        z-index: 1;     
+    }
+
+
+    body::after{
+        content:'' ;
+        width: 100%;
+        height: 160%;
+        position: absolute;
+        background-color: #712e37;
+        top: 0;
+        left: 0;
+        opacity: 0.9;
+        z-index: -1;
+    }
+
+    
+    .titulo h1{
+        color: #fba46f;
+        text-align: center;
+        margin-top: 60px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+        z-index: 1;     
+    }
+
+
+    .secc1{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .secc1 img{
+        width: 25%;
+        margin: 20px 30px;
+        height: 250px;      
+    }
+
+
+    .secc2{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .secc2 img{
+        width: 25%;
+        margin: 30px 30px;
+        height: 250px;     
+    }
+
+
+    .secc3{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .secc3 img{
+        width: 25%;
+        margin: 30px 30px;
+        height: 250px;      
+    }
+    
+}
